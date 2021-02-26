@@ -1,6 +1,7 @@
 /* RESET CSS */
 html * { 
 margin: 0px;
+text-decoration: none;
 }
 #cabecalho { 
 background-color: #5d5d5d;
@@ -25,12 +26,12 @@ align-items: center;
     border-radius: 50%;
 }
 h1, h2 {
-    color: #ffffff;
+    color: #fdfcfc;
     padding: 20px;
 }
 
 #principal {
-background-color: #3f3f3f;
+background-color: #353232;
 height: 500px;
 text-align: center;
 }
@@ -48,9 +49,16 @@ align-items: center;
     /* LARGURA */
     width: 300px;
     /* COR DE FUNDO */
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     /* ESPAÇAMENTO */
     margin: 20px;
+    /* ATIVA O MODO FLEXIVEL */
+display: flex;
+/* ALINHA NA HORIZONTAL */
+justify-content: center;
+/* ALINHA NA VERTICAL */
+align-items: center;
+color: honeydew;
 
 }
 
@@ -64,22 +72,28 @@ justify-content: center;
 /* ALINHA NA VERTICAL */
 align-items: center;
 }
+.icones {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
 #facebook {
     /* ALTURA */
-    height: 90px;
+    height: 40px;
     /* LARGURA */
-    width:  90px;
+    width:  40px;
     /* AJUSTAR PROPORÇÃO */
     object-fit: cover;
     /* ARREDONDAR IMAGEM */
     border-radius: 50%;
     margin: 10px;
+    
 }
 #instagram {
     /* ALTURA */
-    height: 90px;
+    height: 40px;
     /* LARGURA */
-    width:  90px;
+    width:  40px;
     /* AJUSTAR PROPORÇÃO */
     object-fit: cover;
     /* ARREDONDAR IMAGEM */
@@ -88,9 +102,9 @@ align-items: center;
 }
 #linkedin {
     /* ALTURA */
-    height: 90px;
+    height: 40px;
     /* LARGURA */
-    width:  90px;
+    width:  40px;
     /* AJUSTAR PROPORÇÃO */
     object-fit: cover;
     /* ARREDONDAR IMAGEM */
